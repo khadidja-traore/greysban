@@ -1,0 +1,71 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.hero {
+  background-image: url("../img/imgBanniere.jpg");
+  width: 100%;
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+}
+
+.card {
+  border: 2px solid black;
+}
+.card .produits {
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.collection {
+  font-size: 30px;
+  margin: 2% 0 4% 0;
+}
+
+footer {
+  background-color: gray;
+  height: 50px;
+}
+footer p {
+  width: 100%;
+  margin: 0 2%;
+  padding: 5% 0;
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+  margin: auto;
+  width: 100px;
+  margin-right: 2%;
+}
+footer a:hover {
+  color: black;
+}
+
+form .form-control {
+  border: 2px solid black;
+}
+
+.map {
+  border: 1px solid black;
+  padding: 0%;
+}
+.map iframe {
+  padding: 0;
+}
+
+@media screen and (orientation: portrait) {
+  .hero {
+    background-image: url("../img/imgBanniere.jpg");
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+  }
+
+  .navbar-brand {
+    margin: auto;
+  }
+}/*# sourceMappingURL=accueil.css.map */
